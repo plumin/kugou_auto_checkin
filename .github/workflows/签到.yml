@@ -1,8 +1,6 @@
 name: 签到
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '46 17 * * *'
 permissions:
   contents: read
   actions: write
